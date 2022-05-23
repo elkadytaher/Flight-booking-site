@@ -1,0 +1,188 @@
+/*main ruls*/
+body{
+    background-color:#303952;
+    height:2200px
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    }
+
+/*start Heder*/
+.header .navbar{ 
+    color: #F7FBFF;
+    overflow:hidden;
+    position:relative;
+    top:0 ;
+    box-shadow:0 5px 15px rgba(0,0,0,.5) 
+    }/*هااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااام*/
+.header .navbar h2{float:left;text-transform:uppercase }
+.header .navbar h2 span{ color:#2734C4}
+
+
+.header .navbar ul {
+    list-style: none;
+    padding: 0;
+    overflow:hidden;
+    float: right;
+    font-size: 15px;
+    font-family: 'Noto Kufi Arabic', sans-serif 
+}
+.header .navbar ul li {float:right ; padding:10 20 10 20}
+.header .navbar ul li a {
+    color:#E0AF0D;
+    text-decoration:none 
+}
+.header .navbar ul li a:hover {
+    color: #000000;
+    background-color: #FFFFFF ;
+    transition: 0.5s ease-in-out;
+    border-radius:5px   
+}
+.header .slider{
+    background-image:url("254381.jpg");
+    -webkit-background-size: cover; /*Css3*/
+    -moz-background-size: cover; /*Css3*/
+    -o-background-size: cover; /*Css3*/
+    background-size: cover; /*Css3*/
+    height: 600px;
+    border-bottom:groove;
+    border-width:10px
+}
+.header .slider .intro{
+    padding-top: 80px; 
+    height:600px;
+    text-align: center;
+    color:#fff 
+}
+.header .slider .intro h2{margin: 0 auto ; font-size:70px ; width:600px ; text-transform:capitalize }
+.header .slider .intro h2 span{
+    color:#1c2696
+}
+.header .slider .intro div{margin: 0 auto ;font-size:30px ; color:#1c2696 ; font-family: 'Noto Kufi Arabic', sans-serif ; font-style:italic}
+.header .navbar{
+    background-color:#000000;
+    color: #FFFFFF;/*straلوووووون ال  */
+    overflow:hidden
+}
+    
+
+/*End Heder*/
+
+
+/*start body*/
+table{
+    width:1000px ;
+    color: #FFFFFF;
+    text-align:center; 
+    position:relative ;
+    left:100px;
+    direction:rtl;
+    background: #F9F9F9
+    }
+    
+/*table {border:2px solid #FFFFFF ;border-radius:30px }*/
+
+ thead td{
+    background-color:#596275 ;
+    color: #F9F9F9;
+    padding: 20px;
+    font-weight:bold;
+    font-size:15px;
+    font-family: 'Noto Kufi Arabic', sans-serif 
+    
+    }
+     
+tbody td{
+    background-color:#00b894 ;
+    padding: 20px;
+    font-size:17px;
+    font-family: 'Noto Kufi Arabic', sans-serif 
+}
+ thead td:hover{
+    background-color:#fdcb6e;
+    color:#d63031 ;
+    transition: 0.3s ease-in-out;
+    border-radius:10px
+    }
+tbody td:hover{
+    background-color:#3dc1d3;
+    color:#574b90;
+    transition: 0.3s ease-in-out;
+    border-radius:10px
+    
+}
+table caption{
+    color:#D6D6D8;
+    padding:20px;
+    font-size:40px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    border:5px solid #DFE6E9;
+    margin: 20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(255, 255, 255, 1.5)
+}
+table caption:hover{
+    background-color:#55efc4;
+    color:#2d3436;
+    transition: 0.7s ease-in-out;
+    border-radius:30px
+    
+}
+.body .tap1 form{
+    float:right;
+    border-radius:25px;
+    overflow: hidden;
+    background-color:#57606f;
+    width:1010px ;
+    padding:10px;
+    margin: 50px;
+    direction:rtl;
+    box-shadow:0 5px 15px rgba(255, 255, 255, 1.5)
+    
+}
+.body .tap1 .gana label{
+    color:#ffffff;
+    padding:30px;
+    margin: 0px;
+    font-size:30;
+    font-family: 'Noto Kufi Arabic', sans-serif; 
+    }
+
+.body .tap1 .gana .h12 ,.f12{
+    padding:10px ;
+    margin:15px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    /*border-radius:5px*/
+    
+    }
+ .body .tap1 .gana .h12:hover{
+     border-radius:25px;
+     color:#ffffff;
+     transition: 0.7s ease-in-out;
+     background-color:#2f3542;
+ }
+ .body .tap1 .gana .f12:hover{
+     background-color:#2f3542;  
+     border-radius:25px;
+     color:#ffffff;
+     transition: 0.7s ease-in-out;
+     
+ }
+ .body .tap1 .gana .v12{
+     background-color:#2f3542;
+     border-radius:10px;
+     color:#ffffff;
+     padding:15;
+     font-size:15;
+     font-family: 'Noto Kufi Arabic', sans-serif
+     
+     
+     
+     
+     }
+
+
+
+/*End body*/
+
