@@ -1,0 +1,126 @@
+/*main ruls*/
+body{
+    background-color:#303952;
+    height:2200px
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    }
+
+/*start Heder*/
+.header .navbar{ 
+    color: #F7FBFF;
+    overflow:hidden;
+    position:relative;
+    top:0 ;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+     
+    }/*هااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااام*/
+.header .navbar h2{float:left;text-transform:uppercase }
+.header .navbar h2 span{ color:#78e08f}
+
+
+.header .navbar ul {
+    list-style: none;
+    padding: 0;
+    overflow:hidden;
+    float: right;
+    font-size: 18px;
+    font-family: 'Noto Kufi Arabic', sans-serif 
+}
+.header .navbar ul li {float:right ; padding:10 20 10 20}
+.header .navbar ul li a {
+    color:#78e08f;
+    text-decoration:none 
+}
+.header .navbar ul li a:hover {
+    color: #000000;
+    background-color: #FFFFFF ;
+    transition: 0.5s ease-in-out;
+    border-radius:5px   
+}
+.header .slider{
+    background-image:url("mr-autthaporn-pradidpong-aycPf5y9atc-unsplash.jpg");
+    -webkit-background-size: cover; /*Css3*/
+    -moz-background-size: cover; /*Css3*/
+    -o-background-size: cover; /*Css3*/
+    background-size: cover; /*Css3*/
+    height: 600px;
+    border-bottom:groove;
+    border-width:10px;
+    position:relative;
+    /*top:0 */
+}
+.header .slider .intro{
+    padding-top: 80px; 
+    height:600px;
+    text-align: center;
+    color:#fff 
+}
+.header .slider .intro h2{margin: 0 auto ; font-size:70px ; width:600px ; text-transform:capitalize }
+.header .slider .intro h2 span{
+    color:#1c2696
+}
+.header .slider .intro div{margin: 0 auto ;font-size:30px ; color:#fff ; font-family: 'Noto Kufi Arabic', sans-serif ; font-style:italic ; font-weight:bold }
+.header .navbar{
+    background-color:#0a3d62;
+    color: #FFFFFF;/*straلوووووون ال  */
+    overflow:hidden
+}
+    
+
+/*End Heder*/
+/*start body*/
+
+.body{
+    background-color:#8395a7;
+    overflow:hidden ;
+    margin:50px;
+    font-size:19px;
+    font-family: 'Noto Kufi Arabic', sans-serif ;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(255, 255, 255, 1.5)
+
+}
+.body:hover{color:#FFFFFF ;transition: 0.7s ease-in-out } 
+
+.body .image{
+    float: left;
+    width:40% ;
+    
+}
+.body .image img{
+    width: 100%;
+    -webkit-background-size: cover; /*Css3*/
+    -moz-background-size: cover; /*Css3*/
+    -o-background-size: cover; /*Css3*/
+    background-size: cover; /*Css3*/
+    
+}
+.body .info{
+    float:left;
+    width:60% ;
+     
+}
+
+body .info h2{
+    direction:rtl;
+    margin: 40px 0px 20px 40px
+}
+body .info p{
+    direction:rtl;
+    margin: 0px 0px 10px 40px ;
+    line-height: 1.7;
+}
+body .info p:last-of-type{
+    margin-top:30px  ;
+}
+
+
+
+
+
+
+
+/*End body*/
